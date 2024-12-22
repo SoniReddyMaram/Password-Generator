@@ -2,19 +2,19 @@ Here I’m creating a password generator GUI in Python, you can use the ‘tkint
 
 **How Does the Code Work?**
 
-1. Import Statements:
+**1. Import Statements:**
 
 •	‘tkinter’ is imported for creating the GUI.
 
 •	random and string are used for generating random passwords.
-
-2. generate_password Function:
+ 
+**2. generate_password Function:**
 
 •	This function reads the desired length from the entry field, generates a random password using a mix of uppercase and lowercase letters, digits, and punctuation, and then displays the password in another entry field.
 
 •	Error handling is implemented to manage cases where the user inputs non-integer values or zero/negative numbers.
 
-3. GUI Setup:
+**3. GUI Setup:**
 
 •	The main window (root) is created with a title.
 
@@ -22,7 +22,7 @@ Here I’m creating a password generator GUI in Python, you can use the ‘tkint
 
 •	The generate_button is tied to the generate_password function using the command parameter.
 
-4. Run the Main Loop:
+**4. Run the Main Loop:**
 
 •	root.mainloop() starts the GUI event loop, waiting for user interaction.
 
